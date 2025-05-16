@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beautiful Greeting Clock</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: url('chak_look.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #greetuser {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #333;
+            background: rgba(255, 255, 255, 0.6);
+            padding: 30px 50px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div id="greetuser">Loading...</div>
+
+    <script>
+        function updateGreeting() {
+            const now = new Date();
+            const hours = now.getHours();
+
+            let greeting;
+            if (hours < 12) {
+                greeting = "Good morning";
+            } else if (hours < 18) {
+                greeting = "Good afternoon";
+            } else {
+                greeting = "Good evening";
+            }
+
+            const timeString = now.toLocaleTimeString();
+
+            document.getElementById('greetuser').innerText = 
+                `${greeting}!\nIt's now ${timeString}`;
+        }
+
+        // Initial call
+        updateGreeting();
+
+        // Update every second
+        setInterval(updateGreeting, 1000);
+    </script>
+
+</body>
+</html>

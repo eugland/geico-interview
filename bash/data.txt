@@ -1,0 +1,12 @@
+Name: Alice
+Age: 30
+Occupation: Developer
+
+Name: Bob
+Age: 25
+Occupation: Designer
+
+Name: Charlie
+Age: 35
+Occupation: Data Scientist
+

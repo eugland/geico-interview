@@ -1,0 +1,167 @@
+Here’s your entire content converted into clean Markdown formatting:
+
+---
+
+## Tell Me About Yourself
+
+I am a software engineer with 5+ years of experience leading large-scale, reliability-focused engineering efforts at major organizations, including Microsoft, Capital One, and Ontario Health. My work bridges Site Reliability Engineering (SRE), distributed systems, and AI-driven automation.
+
+At Microsoft, I was part of the Edge engineering systems team, responsible for the distributed test resolver platform used by 800+ developers to run millions of tests daily. I led key SRE initiatives:
+
+* Implemented an auto-scaling scheme, enabling rapid expansion to 2,000 resolver machines within 5 minutes of demand spikes (previously it was scheduled scaling).
+* Developed an auto-recycler to maximize resource utilization and reduce waste by adding a buffer time to device restart and intelligently detecting job patterns.
+* Independently built a distributed temporal fault localizer, leveraging early OpenAI Codex to detect and isolate faults using cosine similarity of upstream and downstream commits.
+* Maintained system visibility with Azure Monitor, Application Insights, and Kusto (Azure Data Explorer) for metrics, observability, and log analytics.
+
+At Capital One, I led a migration project for the secured card division, transitioning critical workloads from a monolithic system to a resilient, serverless microservices architecture on AWS.
+
+Earlier in my career, I led frontend development at Ontario Health, building the province’s COVID-19 test result portal, ensuring high availability under public health demand.
+
+I’ve built expertise in .NET, C#, Java, Azure, AWS, and applying AI technologies to reliability and developer productivity. I also have two IEEE publications on autonomous systems and am currently researching LLM-based semantic change point detection in software history.
+
+---
+
+## Shorter Version: Tell Me About Yourself
+
+My name is Eugene Wang. I have 5 years of experience working in major American companies like Microsoft, Capital One, and the public sector, often in lead engineering roles.
+
+* At Microsoft, I worked on the Edge engineering systems team, building a distributed test resolver for over 800 engineers running millions of test jobs daily. I also developed an internal fault localizer using OpenAI Codex.
+* At Capital One, I led a cloud migration project, moving secured card systems from a monolith to serverless microservices on AWS.
+* I also led frontend development for Ontario’s COVID-19 test result portal in 2020.
+* I’ve published two IEEE papers and am researching LLMs for software reliability.
+
+---
+
+## Role You Are Looking For
+
+I’m seeking an SRE role where I can take full ownership across architecture, design, implementation, and performance optimization. I’m most engaged in roles that let me apply creative problem-solving to complex challenges, whether it’s building robust platforms from scratch or fine-tuning systems at scale. Beyond engineering execution, I have a strong interest in applied research, as demonstrated by my work exploring Kubernetes for autonomous vehicles and leveraging LLMs to automate git bisect workflows for fault localization.
+
+For example 
+https://arxiv.org/pdf/2504.00509
+tests recitation over reasoning problems of LLM models, 
+I think this is an answer to Microsoft AI's Paper early sign of Artificial General intelligence
+
+
+---
+
+## Communication Style
+
+I would perform asynchronous communication with clear documentation shared with stakeholders. Sync sessions should be low-friction (ad-hoc chat rooms) and formal meetings are reserved for external teams or high-impact discussions.
+
+---
+
+## Work Environment
+
+I thrive in teams with:
+
+* Clear vision and meaningful goals.
+* Collaborative, non-hostile culture.
+* High transparency and alignment with company direction.
+* Supportive leadership that ensures team visibility and focus.
+
+
+## Handling Difficult People (STAR Example)
+
+**Situation:**
+During the Secure Card Migration project at Capital One, I was seen as "unpredictable" due to experimenting with transaction delivery methods.
+
+**Task:**
+Improve visibility into my technical decisions to address trust concerns.
+
+**Action:**
+
+* Created a lightweight communication process via team chat for design/implementation updates.
+* Kept team informed without bottlenecking development speed.
+
+**Result:**
+
+* Concerns about unpredictability ceased.
+* Debates became proactive discussions.
+* Improved collaboration and restored trust.
+
+**Skills shown:**
+
+* Emotional intelligence.
+* Proactive adaptation.
+* Diplomatic conflict resolution.
+* Leadership without formal authority.
+
+---
+
+## Problem-Solving & Critical Thinking Example
+
+* Built a semantic analyzer with OpenAI Codex to accelerate Git bisect and fault localization for Chromium code merges.
+* Resulted in significant productivity gains for the pump merge resolver process.
+
+---
+
+## How Do You Structure Your Day?
+
+* Categorize tasks by mental load: happy, neutral, burdensome.
+* Sandwich tasks with different mental demands.
+* Check communications 4-5 times per day (morning, before lunch, afternoon, end of day).
+* End each day with a project status update.
+
+---
+
+## Example: Meeting a Critical Deadline
+
+* Biden's Executive Order on AI safety shifted priorities to security ops.
+* Quickly pivoted to configure security certificates and detect vulnerabilities.
+* Adapted team efforts to deliver on tight deadlines.
+
+---
+
+## Example Stories for Behavioral Questions
+
+### Ownership + Bias for Action + Deliver Results
+
+* Incremental VM pool update system reduced global outage risk.
+* Result: Failure fallout reduced to <5%, became org-wide best practice.
+
+### Invent and Simplify + Insist on Highest Standards
+
+* Built LLM-powered Git bisect tool.
+* Result: Debugging time cut from hours to minutes.
+
+### Dive Deep + Are Right, A Lot
+
+* Diagnosed Azure DevOps latency issue in Swarm deployments.
+* Result: Deployment time improved from 6 to 3 hours.
+
+### Customer Obsession + Think Big
+
+* Led development of Ontario’s COVID-19 test result portal.
+* Result: Successfully deployed under tight timeline, supporting thousands of users.
+
+---
+
+## .NET Application Structure (Key Points)
+
+* **Program.cs:** Entry point, host builder, request pipeline.
+* **Dependency Injection (DI):** Loosely coupled, testable code.
+* **Configuration:** Flexible settings (JSON, env vars).
+* **Logging:** Standardized error & behavior tracking.
+
+---
+
+## Questions to Ask in the Interview
+
+* What is the nature of the project and success criteria?
+* What urgent problems need solving now?
+* How do you maintain service quality?
+* What does a new project kickoff look like?
+* How do engineers communicate?
+* How are blockers escalated and resolved?
+
+---
+
+## Initial Recruiter Screen Notes (Geico)
+
+* Team: 30 people, subdivided into smaller teams.
+* Location: Seattle, WA.
+* Focus: Policy system modernization (C# to Java), home/auto, chatbot, mobile.
+* Role: Senior Engineer (C#, React, Microservices).
+* Modernization: Hybrid cloud, .NET Core, AI-enabled backend.
+* Process: 2 coding rounds → 2 system design rounds.
+* Timeline: Friday & Monday OOF preferred.

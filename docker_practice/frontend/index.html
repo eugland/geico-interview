@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Docker Networking Demo</title></head>
+<body>
+    <h1>Frontend Page</h1>
+    <p>Backend says: <span id="backend-response">Loading...</span></p>
+    <script>
+        fetch('/api/index.json').then(res => res.json()).then(data => {
+            document.getElementById('backend-response').innerText = data.message;
+        }).catch(err => {
+            document.getElementById('backend-response').innerText = 'Error contacting backend';
+        });
+    </script>
+</body>
+</html>
