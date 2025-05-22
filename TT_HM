@@ -2,3 +2,13 @@
 Hi Eugene, you passed the interview and we'd like to schedule the final round which will be a meeting with the Dept leader, Zhisheng. In this round, he will have you talk through your background/experience and may ask a couple behavioral type of questions. Could you please reply all with your availability? Thanks!
 
 
+Microsoft System diagram
+- Tests: android tests, browser tests, fuzzy tests,
+- isolate: description of list of files needed to run a executable
+- swarming: distributed tasks fast and efficiently in an heterogenous fleet of bots.
+- To run tests: 
+```python
+python3 tools/mb/mb.py run --swarmed out/Release \
+base_unittests \
+ -- --gtest_filter=<test filter>
+```
